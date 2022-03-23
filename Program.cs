@@ -20,7 +20,7 @@ namespace rsct
             RSCT rsct = new RSCT();
             if (ext == ".rsct")
             {
-                Console.WriteLine("Mode: RSCT tot TXT");
+                Console.WriteLine("Mode: RSCT to TXT");
                 rsct.Extract(args[0]);
             }
             else if (ext == ".txt")
